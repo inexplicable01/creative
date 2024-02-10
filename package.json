@@ -94,15 +94,6 @@
     "web-vitals": "^3.1.1",
     "yup": "^1.0.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "npm install --legacy-peer-deps && yarn install",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "format": "prettier --write \"**/*.{js,jsx,json,md,html,css,less,scss}\""
-  },
   "babelOptions": {
     "presets": [
       "@babel/preset-react"
